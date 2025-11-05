@@ -6,18 +6,18 @@ export const workExperience = defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'name',
-      title: 'name',
+      name: 'role',
+      title: 'Role',
       type: 'string',
     }),
     defineField({
       name: 'company',
-      title: 'Company',
+      title: 'Company Name',
       type: 'string',
     }),
     defineField({
-      name: 'desc',
-      title: 'Desc',
+      name: 'description',
+      title: 'Description',
       type: 'string',
     }),
   ],
